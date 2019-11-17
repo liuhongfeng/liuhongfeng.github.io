@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.vscode
+.idea
+.DS_Store
+.history
+vendor
+Gemfile
+Gemfile.lock

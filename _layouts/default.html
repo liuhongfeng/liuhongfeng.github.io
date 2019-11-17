@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- 默认模板页面 -->
+<html>
+<!-- 页头 -->
+{% include head.html %}
+<body>
+	<!-- 公共头部 -->
+	{% include header.html %}
+	<!-- 具体内容 -->
+	{{ content }}
+	<!-- 页脚 -->
+	{% include footer.html %}
+	<!-- 返回顶部 -->
+	{% include backToTop.html %}
+
+	<script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+	<script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+	<script type="text/javascript">
+		smoothScroll.init({
+			speed: 500, // Integer. How fast to complete the scroll in milliseconds
+			easing: 'easeInOutCubic', // Easing pattern to use
+			offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+		});
+	</script>
+	<!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
+</body>
+</html>
