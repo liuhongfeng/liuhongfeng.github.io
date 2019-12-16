@@ -9,8 +9,6 @@ author: 红影
 * content
 {:toc}
 
-IntelliJ IDEA Windows 下 git log 中文乱码解决
-
 ## 问题描述
 
 在 Git 命令学习过程中，遇到在 IDEA 开发工具的 Terminal 下执行 `git log` 提交说明中文显示乱码，输出如下：
