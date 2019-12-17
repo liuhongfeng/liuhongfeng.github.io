@@ -21,7 +21,7 @@ author: 红影
 
 阿里云的免费证书还是很好申请的，工作日的话，基本半个小时就申请下来了，在证书控制台下载 Nginx 版本证书，文件解压后会得到下面这两个文件：
 
-![证书解压](https://mmbiz.qpic.cn/mmbiz_png/iasEd8KnFYxl6v92icTBdUFhHGlPWk9hD3KWx3RiaSakdic4v63jAVV6QsNicEzuyV6g7rAwV3J6KUou7icRsNglpfkg/0?wx_fmt=png)
+![证书解压](https://images.hongying239.com/image/blog/decompression.png)
 
 `.crt` 文件是安全证书
 
@@ -31,7 +31,7 @@ author: 红影
 1. 将 `.crt` 证书文件的扩展名修改为 `.pem`
 
 2. 在 Nginx 的安装目录下创建 `cert` 目录，并且将两个文件拷贝到 `cert` 目录中，如下图所示：
-![cert 目录](https://mmbiz.qpic.cn/mmbiz_png/iasEd8KnFYxl6v92icTBdUFhHGlPWk9hD3rkzGk8h2fgQlsb1S55HB43NADnzC3ejnV0iahj2wRBYrvVR6ib8sEJFQ/0?wx_fmt=png)
+![cert 目录](https://images.hongying239.com/image/blog/cert.png)
 
 3. 打开 Nginx 安装目录下 `conf` 目录中的 `nginx.conf` 文件，在文件的最后添加如下配置信息：
 ```
@@ -70,7 +70,7 @@ nginx: configuration file /usr/local/webserver/nginx/conf/nginx.conf test is suc
 
 此时通过 `https://liuhongfeng.cn` 或者 `https://www.liuhongfeng.cn` 访问服务会显示如下：
 
-![访问服务](https://mmbiz.qpic.cn/mmbiz_png/iasEd8KnFYxl6v92icTBdUFhHGlPWk9hD3PWA4phyBHzLDBFvdT3Ew5MOgotNEshHkmAB1DJs4KqKKOYSQ0EhYrw/0?wx_fmt=png)
+![访问服务](https://images.hongying239.com/image/blog/access_service.png)
 
 跳转后的链接左侧，出现小锁子的图标，说明 SSL 证书安装成功。
 
