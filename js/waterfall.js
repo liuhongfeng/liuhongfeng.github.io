@@ -13,13 +13,13 @@
 	 */
 	var demoContent = [
 		{
-			demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/task0002_3.html',
-			img_link: 'http://ww2.sinaimg.cn/large/7011d6cfjw1f3ba04okoqj20eq093wh1.jpg',
-			code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
-			title: '轮播图',
-			core_tech: 'JavaScript',
-			description: '变速运动，运动终止条件的应用。'
-		}
+			demo_link: 'https://gaohaoyang.github.io/threeJourney/23-rose/',
+			img_link: 'https://cdn.jsdelivr.net/gh/Gaohaoyang/pics/pics/3d_rose.gif',
+			code_link: 'https://github.com/Gaohaoyang/threeJourney/tree/main/src/23-rose',
+			title: 'Three.js render 3D Rose',
+			core_tech: 'Three.js WebGL',
+			description: 'On the 5th anniversary, I use Three.js to render a rose for my wife.',
+		  }
 	];
 	contentInit(demoContent) // 内容初始化
 	waitImgsLoad() // 等待图片加载，并执行布局初始化
