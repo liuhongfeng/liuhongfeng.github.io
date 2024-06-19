@@ -10,7 +10,7 @@ author: 红影
 {:toc}
 
 #### 图解 int 的取值范围
-![int-value-range](https://images.hongying239.com/image/blog/int-value-range.png)
+![int-value-range](https://images.liuhongfeng.com/image/blog/int-value-range.png)
 
 #### 进制转换
 
