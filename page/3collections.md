@@ -11,7 +11,7 @@ type: page
 
 ## 博客
 
-* [blog](https://blog.hongying239.com)
+* [blog](https://blog.liuhongfeng.com)
 
     红影的博客
 
